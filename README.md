@@ -2,19 +2,19 @@
 Use GitHub Actions to automatically create commit diffs.
 
 # Overview
-This is designed to comapre the output of a command as Windows is updated from version to version.
-It is setup to launch a GitHub Action either:
+This is designed to compare the output of a command as Windows is updated from version to version.
+It is set up to launch a GitHub Action either:
  - Every Day at midnight
  - If any new commits happen on the `main` branch
 
-This action will execute the `run.ps1` scritp, then add any files that were added or changed in the `output` folder, before adding a new commit with the Windows Version as the commit message. If there are no changes, there is no new commit.
+This action will execute the `run.ps1` script, then add any files that were added or changed in the `output` folder, before adding a new commit with the Windows Version as the commit message. If there are no changes, there is no new commit.
 
 As such, when the Windows runner is updated, you can use the GitHub UI or other git tool to see the changes between versions.
 
 # Setup:
 ## 1. Clone this repository
 
-## 2. Setup Github Action Runner
+## 2. Setup GitHub Action Runner
 Setup private GitHub Action runner.
 If using the automatic free-tier runner, please read the [FAQ](#FAQ) Section below first, before continuing.
 
@@ -27,7 +27,7 @@ Commit and push the changes, and watch the `Actions` tab in the GitHub UI.
 
 # FAQ
 ## Is This Acceptable use for the free-tier GitHub Actions?
-In theory, this could be used with either your own private runners, OR the free tier GitHub Actions which are controler and run by GitHub themselves.
+In theory, this could be used with either your own private runners, OR the free tier GitHub Actions which are controlled, automatically updated, and run by GitHub themselves.
 
 The Acceptable Use Policy of GitHub actions is here: https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-additional-product-terms#5-actions-and-packages
 It States:
@@ -41,6 +41,6 @@ Actions and any elements of the Action service may not be used in violation of t
  5. any other activity unrelated to the production, testing, deployment, or publication of the software project associated with the repository where GitHub Actions are used.
 ```
 
-So, IANAL, but if you make sure you are 100% not voilating `4.`, you're doing this for non-commercial reasons, and the results are used to assist development of a project also hosted in this repository, maybe it's ok?
+So, IANAL, but if you make sure you are 100% not violating `4.`, you're doing this for non-commercial reasons, and the results are used to assist development of a project also hosted in this repository, maybe it's ok?
 
-For Example, getting the current list of ETW Providers for my ETW Tracer [Sealighter](https://github.com/pathtofile/Sealighter/) helps me ensure it works with all ETW Provers.
+For Example, getting the current list of ETW Providers for my ETW Tracer [Sealighter](https://github.com/pathtofile/Sealighter/) helps me ensure it works with all ETW Providers.

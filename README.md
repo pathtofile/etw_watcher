@@ -13,6 +13,7 @@ As such, when the Windows runner is updated, you can use the GitHub UI or other 
 
 # Setup:
 ## 1. Clone this repository
+Once cloned, delete `output\providers.txt`
 
 ## 2. Setup GitHub Action Runner
 Setup private GitHub Action runner.

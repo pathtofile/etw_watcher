@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0 * * *'  # every day at midnight
+
+jobs:
+  run:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      - name: Run Script
+        run: .\run.ps1
+        shell: powershell
+
+      - name: Set WINDOWS_VERSION env variable
+        run: powershell -ep bypass -f .\get_windows_ver.ps1 | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+        shell: powershell
+
+      - name: Add new commit if needed
+        uses: EndBug/add-and-commit@v5
+        with:
+          message: "Updated to ${{ env.WINDOWS_VERSION}}"
+          add: "output\\* --force"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -15,6 +15,7 @@ It will also create a tag, which depending on your settings means you'll also ge
 
 # Setup:
 ## 1. Clone this repository
+Once cloned, delete `output\providers.txt`
 
 ## 2. Setup GitHub Action Runner
 Setup private GitHub Action runner.

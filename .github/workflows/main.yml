@@ -15,18 +15,19 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Run Script
-        run: .\run.ps1
+      - name: Set WINDOWS_VERSION env variable
+        run: Echo ("WINDOWS_VERSION="+([System.Environment]::OSVersion.Version).ToString()) | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
         shell: powershell
 
-      - name: Set WINDOWS_VERSION env variable
-        run: powershell -ep bypass -f .\get_windows_ver.ps1 | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+      - name: Run Script
+        run: .\run.ps1
         shell: powershell
 
       - name: Add new commit if needed
         uses: EndBug/add-and-commit@v5
         with:
-          message: "Updated to ${{ env.WINDOWS_VERSION}}"
           add: "output\\* --force"
+          message: "Updated to ${{ env.WINDOWS_VERSION }}"
+          tag: "${{ env.WINDOWS_VERSION }} --force"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

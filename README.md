@@ -11,6 +11,8 @@ This action will execute the `run.ps1` script, then add any files that were adde
 
 As such, when the Windows runner is updated, you can use the GitHub UI or other git tool to see the changes between versions.
 
+It will also create a tag, which depending on your settings means you'll also get an email when changes happen.
+
 # Setup:
 ## 1. Clone this repository
 

@@ -82,6 +82,7 @@ Microsoft-Antimalware-RTP                {8E92DEEF-5E17-413B-B927-59B2F06A3CFC}
 Microsoft-Antimalware-Scan-Interface     {2A576B87-09A7-520E-C21A-4942F0271D67}
 Microsoft-Antimalware-Service            {751EF305-6C6E-4FED-B847-02EF79D26AEF}
 Microsoft-Antimalware-ShieldProvider     {928F7D29-0577-5BE5-3BD3-B6BDAB9AB307}
+Microsoft-Antimalware-UacScan            {D37E7910-79C8-57C4-DA77-52BB646364CD}
 Microsoft-AppV-Client                    {E4F68870-5AE8-4E5B-9CE7-CA9ED75B0245}
 Microsoft-AppV-Client-StreamingUX        {28CB46C7-4003-4E50-8BD9-442086762D12}
 Microsoft-AppV-ServiceLog                {9CC69D1C-7917-4ACD-8066-6BF8B63E551B}
@@ -745,6 +746,7 @@ Microsoft-Windows-stobject               {86133982-63D7-4741-928E-EF1349B80219}
 Microsoft-Windows-Storage-Tiering        {4A104570-EC6D-4560-A40F-858FA955E84F}
 Microsoft-Windows-Storage-Tiering-IoHeat {990C55FC-2662-47F6-B7D7-EB3C027CB13F}
 Microsoft-Windows-StorageManagement      {7E58E69A-E361-4F06-B880-AD2F4B64C944}
+Microsoft-Windows-StorageManagement-PartUtil {93DB76C2-63AB-5DE1-88B3-C068686675B8}
 Microsoft-Windows-StorageManagement-WSP-FS {435F8E4B-8CC4-430E-9796-28CAE4976576}
 Microsoft-Windows-StorageManagement-WSP-Health {B1F01D1A-AE3A-4940-81EE-DDCCBAD380EF}
 Microsoft-Windows-StorageManagement-WSP-Host {595F33EA-D4AF-4F4D-B4DD-9DACDD17FC6E}

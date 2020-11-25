@@ -1,8 +1,10 @@
-# Action Runner
-Use GitHub Actions to automatically create commit diffs.
+# ETW Watcher
+
+An example of use GitHub Actions to automatically create commit diffs.
+This Project watched for changes to the list of ETW Providers.
 
 # Overview
-This is designed to compare the output of a command as Windows is updated from version to version.
+This is an example of how to use Actions to compare the output of a command as Windows is updated from version to version.
 It is set up to launch a GitHub Action either:
  - Every Day at midnight
  - If any new commits happen on the `main` branch
@@ -14,6 +16,7 @@ As such, when the Windows runner is updated, you can use the GitHub UI or other 
 It will also create a tag, which depending on your settings means you'll also get an email when changes happen.
 
 # Setup:
+Steps to create your own Project that uses GitHub Actions:
 ## 1. Clone this repository
 Once cloned, delete `output\providers.txt`
 

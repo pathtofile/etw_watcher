@@ -187,6 +187,7 @@ Microsoft-Windows-Compat-Appraiser       {442C11C5-304B-45A4-AE73-DC2194C4E876}
 Microsoft-Windows-Complus                {0F177893-4A9C-4709-B921-F432D67F43D5}
 Microsoft-Windows-COMRuntime             {BF406804-6AFA-46E7-8A48-6C357E1D6D61}
 Microsoft-Windows-Containers-BindFlt     {FC4E8F51-7A04-4BAB-8B91-6321416F72AB}
+Microsoft-Windows-Containers-CCG         {45E7DBC5-E130-5CEF-9353-CC5EBF05E6C8}
 Microsoft-Windows-Containers-Wcifs       {AEC5C129-7C10-407D-BE97-91A042C61AAA}
 Microsoft-Windows-Containers-Wcnfs       {B99317E5-89B7-4C0D-ABD1-6E705F7912DC}
 Microsoft-Windows-CoreSystem-InitMachineConfig {0B886108-1899-4D3A-9C0D-42D8FC4B9108}

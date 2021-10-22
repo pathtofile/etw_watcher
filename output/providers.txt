@@ -617,7 +617,6 @@ Microsoft-Windows-ProcessExitMonitor     {FD771D53-8492-4057-8E35-8C02813AF49B}
 Microsoft-Windows-Processor-Aggregator   {CBA16CF2-2FAB-49F8-89AE-894E718649E7}
 Microsoft-Windows-ProcessStateManager    {D49918CF-9489-4BF1-9D7B-014D864CF71F}
 Microsoft-Windows-Program-Compatibility-Assistant {4CB314DF-C11F-47D7-9C04-65FB0051561B}
-Microsoft-Windows-ProjFS-Filter          {B6D7DC51-78CF-4E85-8BAC-488A9F47A0BB}
 Microsoft-Windows-propsys                {9485FA1E-23CD-49A1-84E3-11D8BC550CB7}
 Microsoft-Windows-Proximity-Common       {28058203-D394-4AFC-B2A6-2F9155A3BB95}
 Microsoft-Windows-Push-To-Install-Service {3A718A68-6974-4075-ABD3-E8243CAEF398}

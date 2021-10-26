@@ -74,9 +74,10 @@ KMDFv1 Trace Provider                    {544D4C9D-942C-46D5-BF50-DF5CD9524A50}
 Layer2 Security HC Diagnostics Trace     {2E8D9EC5-A712-48C4-8CE0-631EB0C1CD65}
 Local Security Authority (LSA)           {CC85922F-DB41-11D2-9244-006008269001}
 LsaSrv                                   {199FE037-2B82-40A9-82AC-E1D46C792B99}
-Microsoft Edge Etw                       {3A5F2396-5C8F-4F1F-9B67-6CCA6C990E61}
 Microsoft-Antimalware-AMFilter           {CFEB0608-330E-4410-B00D-56D8DA9986E6}
 Microsoft-Antimalware-Engine             {0A002690-3839-4E3A-B3B6-96D8DF868D99}
+Microsoft-Antimalware-Engine-Instrumentation {68621C25-DF8D-4A6B-AABC-19A22E296A7C}
+Microsoft-Antimalware-NIS                {102AAB0A-9D9C-4887-A860-55DE33B96595}
 Microsoft-Antimalware-Protection         {E4B70372-261F-4C54-8FA6-A5A7914D73DA}
 Microsoft-Antimalware-RTP                {8E92DEEF-5E17-413B-B927-59B2F06A3CFC}
 Microsoft-Antimalware-Scan-Interface     {2A576B87-09A7-520E-C21A-4942F0271D67}
@@ -188,6 +189,7 @@ Microsoft-Windows-Compat-Appraiser       {442C11C5-304B-45A4-AE73-DC2194C4E876}
 Microsoft-Windows-Complus                {0F177893-4A9C-4709-B921-F432D67F43D5}
 Microsoft-Windows-COMRuntime             {BF406804-6AFA-46E7-8A48-6C357E1D6D61}
 Microsoft-Windows-Containers-BindFlt     {FC4E8F51-7A04-4BAB-8B91-6321416F72AB}
+Microsoft-Windows-Containers-CCG         {45E7DBC5-E130-5CEF-9353-CC5EBF05E6C8}
 Microsoft-Windows-Containers-Wcifs       {AEC5C129-7C10-407D-BE97-91A042C61AAA}
 Microsoft-Windows-Containers-Wcnfs       {B99317E5-89B7-4C0D-ABD1-6E705F7912DC}
 Microsoft-Windows-CoreSystem-InitMachineConfig {0B886108-1899-4D3A-9C0D-42D8FC4B9108}
@@ -357,16 +359,28 @@ Microsoft-Windows-Http-SQM-Provider      {F5344219-87A4-4399-B14A-E59CD118ABB8}
 Microsoft-Windows-HttpEvent              {7B6BC78C-898B-4170-BBF8-1A469EA43FC5}
 Microsoft-Windows-HttpLog                {C42A2738-2333-40A5-A32F-6ACC36449DCC}
 Microsoft-Windows-HttpService            {DD5EF90A-6398-47A4-AD34-4DCECDEF795F}
+Microsoft-Windows-Hyper-V-Chipset        {DE9BA731-7F33-4F44-98C9-6CAC856B9F83}
 Microsoft-Windows-Hyper-V-Compute        {17103E3F-3C6E-4677-BB17-3B267EB5BE57}
 Microsoft-Windows-Hyper-V-ComputeLib     {AF7FD3A7-B248-460C-A9F5-FEC39EF8468C}
+Microsoft-Windows-Hyper-V-CrashDump      {C7C9E4F7-C41D-5C68-F104-D72A920016C7}
+Microsoft-Windows-Hyper-V-DynMem         {B1D080A6-F3A5-42F6-B6F1-B9FD86C088DA}
 Microsoft-Windows-Hyper-V-Guest-Drivers-Dynamic-Memory {BA2FFB5C-E20A-4FB9-91B4-45F61B4B66A0}
 Microsoft-Windows-Hyper-V-Guest-Drivers-IcSvc {C18672D1-DC18-4DFD-91E4-170CF37160CF}
 Microsoft-Windows-Hyper-V-Guest-Drivers-Storage-Filter {0B9FDCCC-451C-449C-9BD8-6756FCC6091A}
 Microsoft-Windows-Hyper-V-Guest-Drivers-Vmbus {F2E2CE31-0E8A-4E46-A03B-2E0FE97E93C2}
 Microsoft-Windows-Hyper-V-Hypervisor     {52FC89F8-995E-434C-A91E-199986449890}
 Microsoft-Windows-Hyper-V-Netvsc         {152FBE4B-C7AD-4F68-BADA-A4FCC1464F6C}
+Microsoft-Windows-Hyper-V-Serial         {8F9DF503-1D12-49EC-BB28-F6EC42D361D4}
+Microsoft-Windows-Hyper-V-StorageVSP     {10B3D268-9782-49A4-AACC-A93C5482CB6F}
+Microsoft-Windows-Hyper-V-SynthNic       {C29C4FB7-B60E-4FFF-9AF9-CF21F9B09A34}
+Microsoft-Windows-Hyper-V-SynthStor      {EDACD782-2564-4497-ADE6-7199377850F2}
+Microsoft-Windows-Hyper-V-UiDevices      {339AAD0A-4124-4968-8147-4CBBB1F8B3D5}
 Microsoft-Windows-Hyper-V-VfpExt         {9F2660EA-CFE7-428F-9850-AECA612619B0}
+Microsoft-Windows-Hyper-V-VID            {5931D877-4860-4EE7-A95C-610A5F0D1407}
+Microsoft-Windows-Hyper-V-VmbusVdev      {177D1599-9764-4E3A-BF9A-C86887AADDCE}
 Microsoft-Windows-Hyper-V-VmSwitch       {67DC0D66-3695-47C0-9642-33F76F7BD7AD}
+Microsoft-Windows-Hyper-V-VSmb           {7B0EA079-E3BC-424A-B2F0-E3D8478D204B}
+Microsoft-Windows-Hyper-V-Worker         {51DDFA29-D5C8-4803-BE4B-2ECB715570FE}
 Microsoft-Windows-IdCtrls                {6D7662A9-034E-4B1F-A167-67819C401632}
 Microsoft-Windows-IdleTriggerProvider    {9E03F75A-BCBE-428A-8F3C-D46F2A444935}
 Microsoft-Windows-IE-F12-Provider        {D17FFF2F-392D-478C-A41D-737A216EB2A4}
@@ -937,6 +951,8 @@ Microsoft-WindowsPhone-CoreMessaging     {922CDCF3-6123-42DA-A877-1A24F23E39C5}
 Microsoft-WindowsPhone-CoreUIComponents  {A0B7550F-4E9A-4F03-AD41-B8042D06A2F7}
 Microsoft-WindowsPhone-LocationServiceProvider {4D13548F-C7B8-4174-BB7A-D7F64BF22D29}
 Microsoft-WindowsPhone-Ufx               {E98EBDBF-3058-4784-8521-47860B1D2B8E}
+Microsoft.Windows.HyperV.GpupVDev        {C3A331B2-AF4F-5472-FD2F-4313035C4E77}
+Microsoft.Windows.HyperV.VmIcCore        {E5EA3CA6-5EB0-597D-504A-2FD09CCDEFDA}
 Microsoft.Windows.ResourceManager        {4180C4F7-E238-5519-338F-EC214F0B49AA}
 MMC                                      {9C88041D-349D-4647-8BFD-2C0A167BFE58}
 Mobility Center Performance Trace        {8A8B5246-6EB6-4339-8B59-B0085B9F4890}
@@ -986,6 +1002,7 @@ PNPX AssocDB Trace                       {7311AD03-18D6-45AC-9B08-B020BDD6A590}
 Portable Device Connectivity API Trace   {02FE721A-0725-469E-A26D-37B3C09FAAC1}
 PowerShellCore                           {F90714A8-5509-434A-BF6D-B1624C8A19A2}
 PrintFilterPipelineSvc_ObjectsGuid       {AEFE45F4-8548-42B4-B1C8-25673B07AD8B}
+RDP4VSTrace                              {DAA6CAF5-6678-43F8-A6FE-B40EE096E00E}
 Refsv1WppTrace                           {6D2FD9C5-8BD8-4A5D-8AA8-01E5C3B2AE23}
 RefsWppTrace                             {740F3C34-57DF-4BAD-8EEA-72AC69AD5DF5}
 RmClient_RestartManager                  {0888E5EF-9B98-4695-979D-E92CE4247224}

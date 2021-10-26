@@ -3,6 +3,8 @@
 An example of use GitHub Actions to automatically create commit diffs.
 This Project watched for changes to the list of ETW Providers.
 
+For more information see my blog [Tracking Windows Updates with Git and CI](https://blog.tofile.dev/2020/11/19/actions.html).
+
 # Overview
 This is an example of how to use Actions to compare the output of a command as Windows is updated from version to version.
 It is set up to launch a GitHub Action either:

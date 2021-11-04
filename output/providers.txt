@@ -990,7 +990,6 @@ NetJoin                                  {9741FD4E-3757-479F-A3C6-FC49F6D5EDD0}
 Network Location Awareness Trace         {1AC55562-D4FF-4BC5-8EF3-A18E07C4668E}
 Network Profile Manager                  {D9131565-E1DD-4C9E-A728-951999C2ADB5}
 NisDrvWFP Provider                       {49D6AD7B-52C4-4F79-A164-4DCD908391E4}
-NodeJS-ETW-provider                      {77754E9B-264B-4D8D-B981-E4135C1ECB0C}
 Ntfs                                     {DD70BC80-EF44-421B-8AC3-CD31DA613A4E}
 Ntfs_NtfsLog                             {B2FC00C4-2941-4D11-983B-B16E8AA4E25D}
 NTLM Security Protocol                   {C92CF544-91B3-4DC0-8E11-C580339A0BF8}

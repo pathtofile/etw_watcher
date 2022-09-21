@@ -383,6 +383,7 @@ Microsoft-Windows-Hyper-V-SynthNic       {C29C4FB7-B60E-4FFF-9AF9-CF21F9B09A34}
 Microsoft-Windows-Hyper-V-SynthStor      {EDACD782-2564-4497-ADE6-7199377850F2}
 Microsoft-Windows-Hyper-V-UiDevices      {339AAD0A-4124-4968-8147-4CBBB1F8B3D5}
 Microsoft-Windows-Hyper-V-VfpExt         {9F2660EA-CFE7-428F-9850-AECA612619B0}
+Microsoft-Windows-Hyper-V-VfpExt-Ifr     {DBA692D9-D755-51B8-84EE-FE38FD18F4F0}
 Microsoft-Windows-Hyper-V-VID            {5931D877-4860-4EE7-A95C-610A5F0D1407}
 Microsoft-Windows-Hyper-V-Virtual-PMEM   {AE3F5BF8-AB9F-56D6-29C8-8C312E2FAEC2}
 Microsoft-Windows-Hyper-V-VmbusVdev      {177D1599-9764-4E3A-BF9A-C86887AADDCE}

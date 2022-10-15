@@ -74,7 +74,6 @@ KMDFv1 Trace Provider                    {544D4C9D-942C-46D5-BF50-DF5CD9524A50}
 Layer2 Security HC Diagnostics Trace     {2E8D9EC5-A712-48C4-8CE0-631EB0C1CD65}
 Local Security Authority (LSA)           {CC85922F-DB41-11D2-9244-006008269001}
 LsaSrv                                   {199FE037-2B82-40A9-82AC-E1D46C792B99}
-Microsoft Edge Etw                       {3A5F2396-5C8F-4F1F-9B67-6CCA6C990E61}
 Microsoft-Antimalware-AMFilter           {CFEB0608-330E-4410-B00D-56D8DA9986E6}
 Microsoft-Antimalware-Engine             {0A002690-3839-4E3A-B3B6-96D8DF868D99}
 Microsoft-Antimalware-Engine-Instrumentation {68621C25-DF8D-4A6B-AABC-19A22E296A7C}

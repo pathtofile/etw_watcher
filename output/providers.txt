@@ -102,6 +102,7 @@ Microsoft-Quic                           {FF15E657-4F26-570E-88AB-0796B258D11C}
 Microsoft-ServerCore-ShellLauncher       {398F5476-DE18-5AEE-9A34-A42464610946}
 Microsoft-ServiceBus-Client              {A307C7A2-A4CD-4D22-8093-94DB72934152}
 Microsoft-ServiceFabric                  {CBD93BC2-71E5-4566-B3A7-595D8EECA6E8}
+Microsoft-ServiceFabric-BackupRestore    {91C2AA54-42E8-4E10-85AA-AD1425437BDF}
 Microsoft-ServiceFabric-DataImpl         {02D06793-EFEB-48C8-8F7F-09713309A810}
 Microsoft-ServiceFabric-Lease            {3F68B79E-A1CF-4B10-8CFD-3DFE322F07CB}
 Microsoft-System-Diagnostics-DiagnosticInvoker {9068A924-F97E-5506-C3A3-5C020C00E8E0}
